@@ -12,7 +12,7 @@ I believe that my ability to learn and acquire new skills will help me become an
 ### Skills and Proficiency:
 + HTML5, CSS3
 + JavaScript Basics
-+ VS Code, IntelliJ IDEA
++ VS Code
 + Adobe Photoshop, Figma
 
 ### Code example:
