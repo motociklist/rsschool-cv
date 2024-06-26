@@ -1,7 +1,7 @@
 # *rsschool-cv*
 ## __BUDIK ALEKSEY__
 ### Contact information
-* Phone: +375 33 3829***
+* Phone: +375 33 38295**
 * E-mail: budik.leha2@gmail.com
 * Telegram: @motociklist23
 ### Briefly about myself:
