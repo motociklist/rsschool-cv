@@ -1,3 +1,180 @@
-a{
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  bottom: 0;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
   margin: 0 auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1B1B1B;
+  line-height: 1.4;
+}
+
+.header {
+  background-color: #C4A9CD;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.header__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
+.menu__list,
+.ul,
+.ul-contact,
+.ul-contact-info {
+  list-style-type: none;
+}
+
+
+
+.menu__item {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.logo {
+  max-height: 220px;
+  border-radius: 10% 20% / 10% 40%;
+}
+
+/* ///////////////////////// */
+
+.name {
+  margin: 0;
+  font-size: 32px;
+}
+
+.contact {
+  padding-top: 80px;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding-bottom: 80px;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.muself-info {
+  max-width: 340px;
+}
+
+.title-muself,
+.languages-title {
+  font-size: 30px;
+  padding-bottom: 10px;
+  min-width: 300px;
+}
+
+.languages-title__ul {
+  margin-right: 60px;
+}
+
+footer {
+  background-color: #C4A9CD;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.gir-ligo {
+  width: 150px;
+  height: 150px;
+}
+
+.time {
+  font-size: 50px;
+  margin: auto;
+}
+
+.scholl-ligo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+@media (max-width: 980px) {
+  .contact-items {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 830px) {
+  .header__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 630px) {
+  .header__title {
+    font-size: 24px;
+  }
+
+  .time {
+    font-size: 20px;
+  }
+
+  .scholl-ligo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .gir-ligo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo {
+    max-height: 160px;
+  }
 }
