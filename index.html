@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400,700&family=Playfair+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <footer> <a href="https://motociklist.github.io/rsschool-cv/cv">I</a> </footer>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <img class="logo" src="images/img-me.png" alt="I am lexa" />
+        </a>
+        <h1 class="header__title">BUDIK ALEKSEY</h1>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#contact" class="menu__link">Contact information</a>
+            </li>
+            <li class="menu__item">
+              <a href="#skills-code" class="menu__link">Skills and Proficiency</a>
+            </li>
+            <li class="menu__item">
+              <a href="#skills-code" class="menu__link">Code example</a>
+            </li>
+            <li class="menu__item">
+              <a href="#myself-languages" class="menu__link">Briefly about myself</a>
+            </li>
+            <li class="menu__item">
+              <a href="#myself-languages" class="menu__link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact" class="about-me contact">
+      <div class="container">
+        <div class="contact-items">
+          <div class="name">
+            <p>Contact information</p>
+          </div>
+          <div class="contact-info">
+            <ul class="ul">
+              <li>
+                <ul class="ul-contact">
+                  <li>Phone:</li>
+                  <li>E-mail:</li>
+                  <li>Telegram:</li>
+                </ul>
+              </li>
+
+              <li>
+                <ul class="ul-contact-info">
+                  <li>+375 33 38295**</li>
+                  <li>budik.leha2@gmail.com</li>
+                  <li>@motociklist23</li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="myself-languages" class="about-me myself-languages">
+      <div class="container">
+        <div class="contact-items">
+          <div class="muself-info">
+            <div class="title-muself">Briefly about myself</div>
+            <div class="subtitle-muself">I graduated from BrGU Pushkin with a degree in applied mathematics. I work at
+              BrGU Pushkin as a software engineer.
+              I believe that my ability to learn and acquire new skills will help me become an experienced Frontend
+              Developer.</div>
+          </div>
+          <div class="languages">
+            <div class="languages-title">Languages:</div>
+            <ul class="languages-title__ul">
+              <li>Belorussian Native</li>
+              <li>Russian Native</li>
+              <li>English А2- </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-code" class="about-me skills-code">
+      <div class="container">
+        <div class="contact-items">
+          <div class="muself-info">
+            <div class="title-muself">Code example:</div>
+            <div class="subtitle-muself">Highest and Lowest KATA from CODEWARS: In this little assignment you are given
+              a string of space separated numbers, and
+              have to return the highest and lowest number.</div>
+          </div>
+          <div class="code">
+            <pre>
+function highAndLow(n)
+{
+let arr = n.split(' ')
+return `${Math.max(...arr)} 
+${Math.min(...arr)}`
+}
+            </pre>
+          </div>
+          <div class="languages">
+            <div class="languages-title">Skills and Proficiency:</div>
+            <ul class="languages-title__ul">
+              <li>HTML5, CSS3</li>
+              <li>JavaScript Basics</li>
+              <li>VS Code</li>
+              <li>Adobe Photoshop, Figma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <a href="https://github.com/motociklist">
+          <img class="gir-ligo" src="images/github.svg" alt="git">
+        </a>
+        <div class="time">2024</div>
+        <a href="https://rs.school/courses/javascript-ru">
+          <img class="scholl-ligo" src="images/rs-school-logo.svg" alt="scholl">
+        </a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
