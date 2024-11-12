@@ -36,6 +36,10 @@ button {
   width: 300px;
 }
 
+h2.name{
+  margin-top: 30px;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
