@@ -1,2 +1,2 @@
 https://motociklist.github.io/rsschool-cv/cv
-https://GITHUB-USERNAME.github.io/rsschool-cv/
+https://motociklist.github.io/rsschool-cv/
